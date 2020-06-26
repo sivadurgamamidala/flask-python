@@ -4,5 +4,7 @@ f = 2.8
 print(f"f is {f}")
 b = True 
 print(f"b is {b}")
+b1 = False
+print(f"b1 is {b1}")
 n = None
 print(f"n is {n}")
