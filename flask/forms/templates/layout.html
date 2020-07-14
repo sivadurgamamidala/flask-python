@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <style>
+        p{
+            color:green;
+            text-align:center;
+            font-size:20px;
+        }
+        p b{
+            text-transform:uppercase;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>{% block heading %}{% endblock  %}</h1>
+        
+        {% block body%}{% endblock %}
+    </body>
+</html>
